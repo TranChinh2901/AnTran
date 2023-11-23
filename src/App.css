@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  --color-while: #fff;
+  --color-background: #58432e;
+}
+.ContentH1 {
+  width: 100%;
+  height: 65px;
+  background-color: #202020;
+  margin-top: 20px;
+}
+.AppH1 {
+  font-size: 40px;
+  font-style: italic;
+  color: #f6e363;
+  line-height: 65px;
+  padding-left: 30px;
+}
+.Crossbar {
+  height: 1px;
+  background: #000;
+  width: 95%;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cartWrap {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  object-fit: cover;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  column-gap: 30px;
+  width: 95%;
+  margin-left: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.CartWrap {
+  display: flex;
+  object-fit: cover;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  width: 95%;
+  margin-left: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menulist {
+  display: flex;
+  object-fit: cover;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  width: 95%;
+  margin-left: 30px;
 }
